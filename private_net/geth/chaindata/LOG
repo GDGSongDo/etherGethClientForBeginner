@@ -1,0 +1,37 @@
+=============== Aug 31, 2018 (KST) ===============
+20:42:22.941128 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:42:22.943467 db@open opening
+20:42:22.948235 version@stat F·[] S·0B[] Sc·[]
+20:42:22.948925 db@janitor F·2 G·0
+20:42:22.949286 db@open done T·5.789071ms
+=============== Aug 31, 2018 (KST) ===============
+20:53:10.380445 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:53:10.383570 version@stat F·[] S·0B[] Sc·[]
+20:53:10.383610 db@open opening
+20:53:10.383693 journal@recovery F·1
+20:53:10.388776 journal@recovery recovering @1
+20:53:10.389887 memdb@flush created L0@2 N·9 S·548B "HW\x04..\x9bŰ,v3":"r\x00\x00..\x9bŰ,v5"
+20:53:10.394520 version@stat F·[1] S·548B[548B] Sc·[0.25]
+20:53:10.397235 db@janitor F·3 G·0
+20:53:10.397286 db@open done T·13.654617ms
+21:19:22.337432 db@close closing
+21:19:22.338357 db@close done T·923.022µs
+=============== Aug 31, 2018 (KST) ===============
+21:22:31.156813 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:22:31.157842 version@stat F·[1] S·548B[548B] Sc·[0.25]
+21:22:31.157910 db@open opening
+21:22:31.158111 journal@recovery F·1
+21:22:31.164347 journal@recovery recovering @3
+21:22:31.168254 memdb@flush created L0@5 N·527 S·24KiB "Dat..ion,v11":"\xd5\xd62..\xfc\xe5P,v537"
+21:22:31.173081 version@stat F·[2] S·25KiB[25KiB] Sc·[0.50]
+21:22:31.175189 db@janitor F·4 G·0
+21:22:31.175260 db@open done T·17.317936ms
+21:23:06.793698 table@compaction L0·2 -> L1·0 S·25KiB Q·540
+21:23:06.797941 table@build created L1@8 N·362 S·20KiB "Dat..ion,v11":"\xd5\xd62..\xfc\xe5P,v537"
+21:23:06.798293 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+21:23:06.798809 table@compaction committed F-1 S-5KiB Ke·0 D·174 T·3.273098ms
+21:23:06.799007 table@remove removed @5
+21:23:06.799211 table@remove removed @2
+=============== Sep 1, 2018 (KST) ===============
+13:58:27.540804 db@close closing
+13:58:27.541874 db@close done T·1.065003ms

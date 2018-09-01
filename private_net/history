@@ -1,0 +1,42 @@
+eth.accounts
+eth.accounts[0]
+eth.coinbase
+miner.setEtherbase(eth.accounts[1])
+eth.coinbase
+miner.setEtherbase(eth.accounts[0])
+eth.coinbase
+eth.getBlock(1)
+eth.getBlock(0)
+miner.start(1)
+eht.mining
+eth.mining
+eth.getBalance(eth.accounts[0])
+eth.mining
+eth.getBalance(eth.accounts[0])
+eth.mining
+eth.getBalance(eth.accounts[0])
+eth.mining
+eth.getBalance(eth.accounts[0])
+eth.mining
+eth.getBalance(eth.accounts[0])
+eth.mining
+eth.getBalance(eth.accounts[0])
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+eth.getBalance(eth.accounts[0])
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+miner.stop()
+eth.mining
+web3.fromWei(eth.getBalance(eth.accounts[2]),"ether")
+eth.sendTransaction({from:eth.accounts[0], to:eth.accounts[2], value:web3.toWei(5, "ether")})
+web3.fromWei(eth.getBalance(eth.accounts[2]),"ether")
+eth.sendTransaction({from:eth.accounts[0], to:eth.accounts[2], value:web3.toWei(5, "ether")})
+eth.getTransaction("0x8d25197221ee21fb3876c6869a0ef287602a9f1e8a46386d81483007207573df")
+web3.fromWei(eth.getBalance(eth.accounts[2]),"ether")
+miner.start(1)
+eth.mining
+eth.getTransaction("0x8d25197221ee21fb3876c6869a0ef287602a9f1e8a46386d81483007207573df")
+web3.fromWei(eth.getBalance(eth.accounts[2]),"ether")
+web3.fromWei(eth.getBalance(eth.accounts[2],58),"ether")
+web3.fromWei(eth.getBalance(eth.accounts[2],59),"ether")
+eth.getTransactionReceipt("0x8d25197221ee21fb3876c6869a0ef287602a9f1e8a46386d81483007207573df")
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
